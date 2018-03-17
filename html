@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <title>FEND Nanodegree - Project Build a Portofolio</title>
+</head>
+
+<body>
+
+    <!--   HEADER -->
+    <header class="row">
+        <img class="logo" src="https://cdn.worldvectorlogo.com/logos/udacity.svg" alt="Udacity logo">
+        <div class="heading">
+            <h1 class="name">Raluca M</h1>
+            <div class="info">
+                <p class="job-title">Udacity Front-end Web Developer Nanodegree Student </p>
+            </div>
+        </div>
+    </header>
+
+    <!--   IMAGE WITH OVERLAY -->
+    <section class="Flowers image">
+        <picture>
+            <source media="(max-width: 580px)" srcset="https://static.pexels.com/photos/40797/wild-flowers-flowers-plant-macro-40797.jpeg">
+            <source media="(min-width: 581px)" srcset="https://static.pexels.com/photos/40797/wild-flowers-flowers-plant-macro-40797.jpeg">
+            <img src="https://static.pexels.com/photos/40797/wild-flowers-flowers-plant-macro-40797.jpeg" alt="flowers image">
+        </picture>
+        <div class="overlay">
+            <div class="overlay-text">
+                <h4>Hey, I'm Raluca. <br>Let me show you my work.<br><a id="scroll-button" href="#portfolio-section"><i  class="fas fa-angle-down"></i></a></h4>
+            </div>
+        </div>
+    </section>
+
+    <!--   GALLERY OF PROJECTS -->
+    <section id="portfolio-section" class="portfolio">
+        <h2>Featured work</h2>
+        <div class="container">
+            <div class="box">
+                <img src="https://kids.nationalgeographic.com/content/dam/kids/photos/animals/Mammals/A-G/cheetah-mom-cubs.ngsversion.1461770750320.adapt.1900.1.jpg" alt="Animal Trading Card">
+                <h3>Animal Trading Card</h3>
+                <a href="https://codepen.io/raluca_m/pen/xYYWwO"><i class="fab fa-codepen"></i>View on CodePen</a>
+            </div>
+            <div class="box">
+                <img src="http://sereneliu.com/images/mockup-to-article.png" alt="Mockup to article">
+                <h3>Mockup to article</h3>
+                <a href="https://codepen.io/raluca_m/pen/JOyobJ"><i class="fab fa-codepen"></i>View on CodePen</a>
+            </div>
+            <div class="box">
+                <img src="https://image.freepik.com/free-vector/geometric-background-with-text-of-coming-soon_1017-5069.jpg" alt="To be continued">
+                <h3>Coming soon</h3>
+                <a href="https://codepen.io/raluca_m/"><i class="fab fa-codepen"></i>View on CodePen</a>
+            </div>
+        </div>
+    </section>
+    <footer>
+      <p class="rights"> © 2018 Raluca M all rights reserved. </p>
+    </footer>
+</body>
+</html>
